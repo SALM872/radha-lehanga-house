@@ -1,5 +1,5 @@
 // Configuration
-const API_URL = 'YOUR_DEPLOYED_SCRIPT_URL'; // Replace with your deployed GS URL
+const API_URL = 'https://script.google.com/macros/s/AKfycbxvFBa84he83UdqRdQ7B8IINpiYfJ0XbSMqa6Bp8Jv70ScJMlDesLRqUInyky68WQ18Bw/exec'; // Replace with your deployed GS URL
 const IMGBB_API_KEY = '8e145428c7eb6b32baa904bcc63ee944';
 let cachedIDs = JSON.parse(localStorage.getItem('imageIDs')) || [];
 
