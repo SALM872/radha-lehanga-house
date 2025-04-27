@@ -66,7 +66,7 @@ async function callBackend(endpoint, data) {
   try {
     const url = `${API_URL}?endpoint=${endpoint}`;
     const response = await fetch(url, {
-      method: 'POST',
+      method: 'GET',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data || {})
     });
